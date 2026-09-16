@@ -1,0 +1,17 @@
+{
+  "name": "shift",
+  "version": "0.1.0",
+  "description": "Simulation Host for Individual Frame Timing",
+  "dependencies": [
+    "geographiclib",
+    "spdlog",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
